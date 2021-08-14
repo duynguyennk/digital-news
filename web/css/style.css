@@ -1,0 +1,178 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 12, 2021, 1:03:48 PM
+    Author     : drako
+*/
+body{
+    background-color: #e7e7e7;
+    font-family:sans-serif;
+}
+
+.wrap-all{
+    width: 886px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.pre-header{
+    background: url(../images/preheader.jpg);
+    width: 886px;
+    height: 71px;
+}
+
+.header{
+    background: url(../images/header.jpg);
+    width: 886px;
+    height: 78px;
+}
+
+.header p{ 
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+    margin: 0;
+    padding-left: 82px;
+}
+
+.navigation{
+    background: url(../images/menu.jpg);
+    width: 886px;
+    height: 32px;
+}
+
+.navigation a{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    padding-left: 82px;
+    line-height: 32px;
+}
+
+.content{
+    background: url(../images/bg.jpg);
+    width: 886px;
+    height: auto;
+    display: flex;
+}
+
+.left{
+    width: 70%;
+    padding-top: 22px;
+    padding-left: 80px;
+    border-right: dotted 2px;
+    border-color: #e0e0e0;   
+    padding-right: 15px;
+    font-size: 14px;
+}
+
+.tittle
+{
+    font-size: 22px;
+    color: #42554e;
+    font-weight: bold;
+    padding-bottom: 15px;
+    text-decoration: none;
+}
+.signature
+{
+    float:right;
+    color: #42554e;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+.image img
+{
+    width: 400px;
+    height: auto;
+    padding-bottom: 20px;
+}
+.text{
+    padding-bottom: 40px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.icon1{
+    height: 10px;
+    width: 10px;
+    display: inline-block;
+    background-image: url(../images/comment.gif);
+    background-repeat: no-repeat;
+}
+.icon2{
+    height: 10px;
+    width: 10px;
+    display: inline-block;
+    background-image: url(../images/timeicon.gif);
+    background-repeat: no-repeat;
+}
+
+.right{
+    width: 30%;
+    height: auto;
+    padding-left: 10px;
+    padding-right: 80px;
+    font-size: 14px;
+}
+
+.news
+{
+    height: auto;
+}
+
+.title-news p{
+    color: #42554e;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.search-news{
+    margin-top: 10px;
+}
+
+.search-box{
+    border: dashed 1px;
+}
+.search-btn{
+    border: none;
+    background-color: transparent;
+    font-weight: bold;
+    color: #999999;
+}
+
+.last-articles
+{
+    padding-bottom: 20px;
+}
+.last-articles a
+{
+    color: #42554e;
+}
+
+.footer{
+    background: url(../images/footer.jpg);
+    width: 886px;
+    height: 78px;
+}
+
+.paging
+{
+    margin-top: 40px;
+    text-align: center;
+}
+.paging a{
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 2px;
+    border: 1px solid;
+}
+.active{
+    color: red !important;
+    pointer-events: none;
+}
